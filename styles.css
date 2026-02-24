@@ -1,1 +1,343 @@
-/* your styles here */
+:root {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+@media (max-width: 425px) {
+    .header-container {
+        width: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
+        background-color: #505a74;
+    }
+
+    .header-container-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+        font-size: 1rem;
+    }
+    
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .about-image {
+        max-width: 250px;
+    }
+
+    .projects-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        background-color: #f8f8f8;
+    }
+
+    .skills-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .contact-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        background-color: #f8f8f8;
+    }
+
+    .footer-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+    .header-container {
+        width: 100%;
+        padding: 1rem 5rem;
+        background-color: #505a74;
+        box-sizing: border-box;
+    }
+
+    .header-container-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 1rem;
+        font-size: 1rem;
+    }
+    
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .about-image {
+        max-width: 250px;
+    }
+
+    .projects-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        background-color: #f8f8f8;
+    }
+
+    .skills-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .contact-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        background-color: #f8f8f8;
+    }
+
+    .footer-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 769px) {
+    .header-container {
+        width: 100%;
+        padding: 1rem 8rem;
+        background-color: #505a74;
+        box-sizing: border-box;
+    }
+
+    .header-container-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 1rem;
+        font-size: 1rem;
+    }
+    
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .about-image {
+        max-width: 250px;
+    }
+
+    .projects-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        background-color: #f8f8f8;
+    }
+
+    .skills-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .contact-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        background-color: #f8f8f8;
+    }
+
+    .footer-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 1441px) {
+    .header-container {
+        width: 100%;
+        padding: 1rem 16rem;
+        background-color: #505a74;
+        box-sizing: border-box;
+    }
+
+    .header-container-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 1rem;
+        font-size: 1rem;
+        max-width: 1440px;
+    }
+    
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .about-image {
+        max-width: 250px;
+    }
+
+    .projects-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        background-color: #f8f8f8;
+    }
+
+    .skills-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .contact-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        background-color: #f8f8f8;
+    }
+
+    .footer-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: #fff;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #dadada;
+}
+
+.about-me-header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.about-image {
+    border-radius: 10px;
+    box-shadow: -5px 5px 20px 5px #bebebe;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
