@@ -1,49 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thomas Cansino - Web Developer</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div>
-    <header>
-      <a href="https://www.thomascansino.com/" target="_blank" rel="nofollow">Home</a>
-      <a href="https://www.thomascansino.com/" target="_blank" rel="nofollow">Projects</a>
-      <a href="https://www.thomascansino.com/" target="_blank" rel="nofollow">Skills</a>
-      <a href="https://www.thomascansino.com/" target="_blank" rel="nofollow">Section</a>
-    </header>
-  </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas Cansino - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    
+  </head>
+  <body>
+    <div class="header-container">
+      <header class="header-container-1">
+        <a href="#hero" rel="nofollow">Home</a>
+        <a href="#projects" rel="nofollow">Projects</a>
+        <a href="#skills" rel="nofollow">Skills</a>
+        <a href="#contact" rel="nofollow">Section</a>
+      </header>
+    </div>
 
-  <div>
-    <h1>About Me</h1>
-    <p>I am Thomas Cansino, senior full stack web dev for a US startup company.</p>
-    <img src="assets\cat.jpg" alt="description">
-  </div>
+    <div class="about-me-container">
+      <div class="about-me-header-container">
+        <h1 class="about-me-header">Hi, I'm Thomas👋</h1>
+      </div>
+      <p>I am Thomas Cansino, senior full stack web dev for a US startup company.</p>
+      <img src="assets\cat.jpg" alt="description" class="about-image">
+      <input type="button" value="Click Me!" id="button-id">
+    </div>
 
-  <div>
-    <h1>PROJECTS</h1>
-    <div>PROJECT 1</div>
-    <div>PROJECT 2</div>
-    <div>PROJECT 3</div>
-  </div>
+    <div class="projects-container">
+      <h1>PROJECTS</h1>
+      <div>PROJECT 1</div>
+      <div>PROJECT 2</div>
+      <div>PROJECT 3</div>
+    </div>
 
-  <div>
-    <h1>SKILLS</h1>
-    <div>HTML</div>
-    <div>CSS</div>
-    <div>JS</div>
-  </div>
+    <div class="skills-container">
+      <h1>SKILLS</h1>
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JS</div>
+    </div>
 
-  <div>
-    <h1>CONTACT</h1>
-  </div>
+    <div class="contact-container">
+      <h1>CONTACT</h1>
 
-  <div>
-    <h1>FOOTER</h1>
-  </div>
+      <form action="/submit_page" class="form-container">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
 
-  <script src="script.js"></script>
-</body>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+
+        <input type="submit" value="Submit Form">
+      </form>
+
+    </div>
+
+    <div class="footer-container">
+      <h1>FOOTER</h1>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
